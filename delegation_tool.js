@@ -198,7 +198,7 @@ function delegation_sp()
 	var delegatee = document.getElementById('delegatee').value;
 	var sp = parseInt(document.getElementById('sp').value);
 	var spfinal = Number.parseFloat(sp).toFixed(9);
-	document.write(spfinal);
+	
     scorum.broadcast.delegateScorumpower(wif,
     delegator,
     delegatee,
