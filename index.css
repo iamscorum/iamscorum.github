@@ -419,7 +419,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 100%;
+   width: 50%;
    text-align: center;
 }
 #LayoutGrid1 > .row > .col-2
@@ -427,8 +427,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   display: none;
-   width: 0;
+   width: 50%;
    text-align: center;
 }
 #LayoutGrid1:before,
@@ -499,7 +498,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 50%;
+   width: 100%;
    text-align: center;
 }
 #LayoutGrid2 > .row > .col-2
@@ -507,7 +506,8 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 50%;
+   display: none;
+   width: 0;
    text-align: center;
 }
 #LayoutGrid2:before,
@@ -1859,79 +1859,6 @@ body
 {
    text-align: center;
 }
-#wb_Heading8
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-   text-align: center;
-}
-#Heading8
-{
-   color: #42DCA3;
-   font-family: "Trebuchet MS";
-   font-weight: bold;
-   font-size: 24px;
-   margin: 0;
-   text-align: center;
-}
-#Heading8 a
-{
-   color: #42DCA3;
-   text-decoration: none;
-}
-#wb_Text24 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0px 0px 10px 0px;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text24 div
-{
-   text-align: center;
-}
-#Banner2
-{
-   background-color: #42DCA3;
-   background-image: none;
-   border: 2px solid #000000;
-   color: #000000;
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 19px;
-   text-align: center;
-   margin: 0;
-}
-#Banner2 span
-{
-   display: block;
-   height: 19px;
-   margin: 12px 0px 12px 0px;
-}
-#Banner2 .single-char
-{
-   float: left;
-}
-#Banner2 div
-{
-   display: inline-block;
-   text-align: center;
-}
-.Banner2_ShowAnimation
-{
-   -webkit-animation: animate-background 1000ms linear 0s 1 normal both;
-   -moz-animation: animate-background 1000ms linear 0s 1 normal both;
-   animation: animate-background 1000ms linear 0s 1 normal both;
-}
-.Banner2_HideAnimation
-{
-}
 #wb_Heading4
 {
    background-color: transparent;
@@ -2003,6 +1930,446 @@ body
    animation: animate-background 1000ms linear 0s 1 normal both;
 }
 .Banner4_HideAnimation
+{
+}
+#wb_LayoutGrid5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1280px;
+}
+#LayoutGrid5
+{
+   box-sizing: border-box;
+   padding: 40px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
+{
+   float: left;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 50%;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 50%;
+   text-align: center;
+}
+#LayoutGrid5:before,
+#LayoutGrid5:after,
+#LayoutGrid5 .row:before,
+#LayoutGrid5 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid5:after,
+#LayoutGrid5 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Heading8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+   text-align: center;
+}
+#Heading8
+{
+   color: #42DCA3;
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 24px;
+   margin: 0;
+   text-align: center;
+}
+#Heading8 a
+{
+   color: #42DCA3;
+   text-decoration: none;
+}
+#wb_Heading9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+   text-align: center;
+}
+#Heading9
+{
+   color: #42DCA3;
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 24px;
+   margin: 0;
+   text-align: center;
+}
+#Heading9 a
+{
+   color: #42DCA3;
+   text-decoration: none;
+}
+#wb_Text22 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0px 0px 10px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text22 div
+{
+   text-align: center;
+}
+#wb_Text24 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0px 0px 10px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text24 div
+{
+   text-align: center;
+}
+#wb_FontAwesomeIcon8
+{
+   background-color: #000000;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon8:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#FontAwesomeIcon8
+{
+   height: 16px;
+   width: 16px;
+}
+#FontAwesomeIcon8 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 16px;
+   line-height: 16px;
+   vertical-align: middle;
+   width: 13px;
+}
+#wb_FontAwesomeIcon8:hover i
+{
+   color: #18BC9C;
+}
+#wb_FontAwesomeIcon8
+{
+   -webkit-transform: rotate(0deg) ;
+   -moz-transform: rotate(0deg) ;
+   transform: rotate(0deg) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   -moz-transition: transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#wb_FontAwesomeIcon8:hover
+{
+   -webkit-transform: rotate(360deg) ;
+   -moz-transform: rotate(360deg) ;
+   transform: rotate(360deg) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   -moz-transition: transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#wb_FontAwesomeIcon9
+{
+   background-color: #000000;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon9:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#FontAwesomeIcon9
+{
+   height: 16px;
+   width: 16px;
+}
+#FontAwesomeIcon9 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 16px;
+   line-height: 16px;
+   vertical-align: middle;
+   width: 8px;
+}
+#wb_FontAwesomeIcon9:hover i
+{
+   color: #18BC9C;
+}
+#wb_FontAwesomeIcon9
+{
+   -webkit-transform: rotate(0deg) ;
+   -moz-transform: rotate(0deg) ;
+   transform: rotate(0deg) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   -moz-transition: transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#wb_FontAwesomeIcon9:hover
+{
+   -webkit-transform: rotate(360deg) ;
+   -moz-transform: rotate(360deg) ;
+   transform: rotate(360deg) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   -moz-transition: transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#wb_FontAwesomeIcon12
+{
+   background-color: #000000;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon12:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#FontAwesomeIcon12
+{
+   height: 16px;
+   width: 16px;
+}
+#FontAwesomeIcon12 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 16px;
+   line-height: 16px;
+   vertical-align: middle;
+   width: 12px;
+}
+#wb_FontAwesomeIcon12:hover i
+{
+   color: #18BC9C;
+}
+#wb_FontAwesomeIcon12
+{
+   -webkit-transform: rotate(0deg) ;
+   -moz-transform: rotate(0deg) ;
+   transform: rotate(0deg) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   -moz-transition: transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#wb_FontAwesomeIcon12:hover
+{
+   -webkit-transform: rotate(360deg) ;
+   -moz-transform: rotate(360deg) ;
+   transform: rotate(360deg) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   -moz-transition: transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#Line3
+{
+   border-color: #000000;
+   border-style: solid;
+   border-bottom-width: 40px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Banner2
+{
+   background-color: #42DCA3;
+   background-image: none;
+   border: 2px solid #000000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-align: center;
+   margin: 0;
+}
+#Banner2 span
+{
+   display: block;
+   height: 19px;
+   margin: 12px 0px 12px 0px;
+}
+#Banner2 .single-char
+{
+   float: left;
+}
+#Banner2 div
+{
+   display: inline-block;
+   text-align: center;
+}
+.Banner2_ShowAnimation
+{
+   -webkit-animation: animate-background 1000ms linear 0s 1 normal both;
+   -moz-animation: animate-background 1000ms linear 0s 1 normal both;
+   animation: animate-background 1000ms linear 0s 1 normal both;
+}
+.Banner2_HideAnimation
+{
+}
+#wb_Heading10
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+   text-align: center;
+}
+#Heading10
+{
+   color: #42DCA3;
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 24px;
+   margin: 0;
+   text-align: center;
+}
+#Heading10 a
+{
+   color: #42DCA3;
+   text-decoration: none;
+}
+#wb_Text25 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0px 0px 10px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text25 div
+{
+   text-align: center;
+}
+#Banner5
+{
+   background-color: #42DCA3;
+   background-image: none;
+   border: 2px solid #000000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-align: center;
+   margin: 0;
+}
+#Banner5 span
+{
+   display: block;
+   height: 19px;
+   margin: 12px 0px 12px 0px;
+}
+#Banner5 .single-char
+{
+   float: left;
+}
+#Banner5 div
+{
+   display: inline-block;
+   text-align: center;
+}
+.Banner5_ShowAnimation
+{
+   -webkit-animation: animate-background 1000ms linear 0s 1 normal both;
+   -moz-animation: animate-background 1000ms linear 0s 1 normal both;
+   animation: animate-background 1000ms linear 0s 1 normal both;
+}
+.Banner5_HideAnimation
 {
 }
 #wb_CssMenu1
@@ -2159,7 +2526,7 @@ body
    width: 544px;
    height: 20px;
    text-align: center;
-   z-index: 34;
+   z-index: 31;
 }
 #Layer2_Container
 {
@@ -2189,7 +2556,7 @@ body
    width: 56px;
    height: 56px;
    text-align: center;
-   z-index: 28;
+   z-index: 25;
 }
 #about_Container
 {
@@ -2215,13 +2582,13 @@ body
    width: 56px;
    height: 56px;
    text-align: center;
-   z-index: 24;
+   z-index: 21;
 }
 #wb_Heading4
 {
    display: inline-block;
    width: 100%;
-   z-index: 18;
+   z-index: 12;
 }
 #Banner1
 {
@@ -2240,24 +2607,24 @@ body
    text-align: center;
    z-index: 3;
 }
+#Banner2
+{
+   display: inline-block;
+   width: 339px;
+   height: 46px;
+   z-index: 36;
+}
 #wb_Name1
 {
    display: inline-block;
    width: 100%;
-   z-index: 25;
+   z-index: 22;
 }
 #wb_Heading5
 {
    display: inline-block;
    width: 100%;
    z-index: 15;
-}
-#Banner2
-{
-   display: inline-block;
-   width: 339px;
-   height: 46px;
-   z-index: 14;
 }
 #wb_Text3
 {
@@ -2273,7 +2640,7 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 27;
+   z-index: 24;
 }
 #wb_Text4
 {
@@ -2283,7 +2650,7 @@ body
    width: 289px;
    height: 29px;
    text-align: center;
-   z-index: 23;
+   z-index: 20;
 }
 #Banner3
 {
@@ -2301,7 +2668,7 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 41;
+   z-index: 44;
 }
 #PageHeader1_Container
 {
@@ -2319,7 +2686,7 @@ body
    width: 544px;
    height: 20px;
    text-align: center;
-   z-index: 31;
+   z-index: 28;
 }
 #Layer2
 {
@@ -2330,14 +2697,27 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 42;
+   z-index: 45;
 }
 #Banner4
 {
    display: inline-block;
    width: 339px;
    height: 46px;
-   z-index: 20;
+   z-index: 14;
+}
+#Banner5
+{
+   display: inline-block;
+   width: 339px;
+   height: 46px;
+   z-index: 39;
+}
+#wb_Heading8
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 34;
 }
 #Layer4_Container
 {
@@ -2352,7 +2732,7 @@ body
    display: inline-block;
    width: 250px;
    height: 213px;
-   z-index: 33;
+   z-index: 30;
 }
 #Layer3
 {
@@ -2363,13 +2743,7 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 43;
-}
-#wb_Heading8
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 12;
+   z-index: 46;
 }
 #Layer1_Container
 {
@@ -2387,7 +2761,7 @@ body
    height: 100%;
    float: left;
    display: block;
-   z-index: 39;
+   z-index: 42;
 }
 #Layer4
 {
@@ -2398,7 +2772,7 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 46;
+   z-index: 49;
 }
 #quote_Container
 {
@@ -2417,7 +2791,7 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 45;
+   z-index: 48;
 }
 #team_Container
 {
@@ -2436,14 +2810,14 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 40;
+   z-index: 43;
 }
 #Html3
 {
    display: inline-block;
    width: 190px;
    height: 33px;
-   z-index: 36;
+   z-index: 33;
 }
 #wb_Text10
 {
@@ -2452,7 +2826,7 @@ body
    top: 1330px;
    width: 795px;
    height: 16px;
-   z-index: 38;
+   z-index: 41;
 }
 #wb_Text9
 {
@@ -2494,7 +2868,7 @@ body
 #wb_CssMenu1
 {
    position: absolute;
-   left: 525px;
+   left: 514px;
    top: 30px;
    width: 444px;
    height: 50px;
@@ -2508,7 +2882,7 @@ body
    width: 544px;
    height: 20px;
    text-align: center;
-   z-index: 21;
+   z-index: 18;
 }
 #team
 {
@@ -2519,13 +2893,19 @@ body
    float: left;
    clear: left;
    display: block;
-   z-index: 44;
+   z-index: 47;
+}
+#wb_Heading10
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 37;
 }
 #wb_Heading1
 {
    display: inline-block;
    width: 100%;
-   z-index: 29;
+   z-index: 26;
 }
 #wb_Text18
 {
@@ -2535,7 +2915,7 @@ body
    width: 544px;
    height: 20px;
    text-align: center;
-   z-index: 22;
+   z-index: 19;
 }
 @media only screen and (max-width: 969px)
 {
@@ -2937,102 +3317,5 @@ body
 {
    margin: 0;
    padding: 10px 20px 10px 20px;
-}
-#wb_CssMenu1
-{
-   left: 220px;
-   top: 3px;
-   width: 84px;
-   height: 50px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   text-align: right;
-}
-#wb_CssMenu1 li
-{
-   width: 70px;
-}
-#wb_CssMenu1 a
-{
-   color: #9D9D9D;
-   border: 0px solid #222222;
-   background-color: #000000;
-   background-image: none;
-   font-family: "Trebuchet MS";
-   font-weight: bold;
-   font-size: 13px;
-   font-style: normal;
-   text-decoration: none;
-   width: 60px;
-   height: 40px;
-   padding: 0px 5px 0px 5px;
-   line-height: 40px;
-   text-align: left;
-}
-#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover, #wb_CssMenu1 .active
-{
-   color: #FFFFFF;
-   background-color: #42DCA3;
-   background-image: none;
-   border: 0px solid #222222;
-}
-#wb_CssMenu1 a.withsubmenu
-{
-   padding: 0 5px 0 5px;
-   width: 60px;
-}
-#wb_CssMenu1 ul :hover ul
-{
-   left: 0px;
-   top: 40px;
-   padding-top: 0px;
-   visibility: visible;
-}
-#wb_CssMenu1 .firstmain:hover ul
-{
-   left: 0px;
-}
-#wb_CssMenu1 li li
-{
-   width: 200px;
-}
-#wb_CssMenu1 ul ul a, #wb_CssMenu1 ul :hover ul a
-{
-   width: 188px;
-   padding: 8px 6px 7px 6px;
-   background-color: #000000;
-   border: 0px none #CCCCCC;
-   color: #42DCA3;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   line-height: 13px;
-   text-decoration: none;
-}
-#wb_CssMenu1 ul ul :hover a, #wb_CssMenu1 ul ul a:hover, #wb_CssMenu1 ul ul :hover ul :hover a, #wb_CssMenu1 ul ul :hover ul a:hover
-{
-   background-color: #42DCA3;
-   border: 0px none #2E6DA4;
-   color: #FFFFFF;
-}
-#wb_CssMenu1 ul
-{
-   width: 100%;
-}
-#wb_CssMenu1 li
-{
-   padding: 0 0px 4px 0px;
-   width: 100%;
-}
-#wb_CssMenu1 a
-{
-   float: none;
-   width: 100%;
-}
-#wb_CssMenu1 a.withsubmenu
-{
-   width: 100%;
 }
 }
