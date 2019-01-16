@@ -622,7 +622,7 @@ body
    left: 0;
    top: 0;
    visibility: hidden;
-   width: 200px;
+   width: 230px;
    height: auto;
    border: none;
    background-color: transparent;
@@ -640,7 +640,7 @@ body
 }
 #wb_CssMenu1 li li
 {
-   width: 200px;
+   width: 230px;
    padding: 0 0px 0px 0px;
    border: 0px #000000 solid;
    border-width: 0 0px;
@@ -657,7 +657,7 @@ body
 {
    float: none;
    margin: 0;
-   width: 188px;
+   width: 218px;
    height: auto;
    white-space: normal;
    padding: 8px 6px 7px 6px;

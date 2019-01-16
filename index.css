@@ -96,7 +96,6 @@ body
    background-image: url(images/clouds_bg.jpg);
    background-repeat: repeat;
    background-position: center bottom;
-   background-attachment: scroll;
    background-size: cover;
    margin: 0;
 }
@@ -157,7 +156,6 @@ body
    background-image: url(images/clouds_bg.jpg);
    background-repeat: repeat;
    background-position: center center;
-   background-attachment: scroll;
    background-size: cover;
    border: 0px solid #000000;
    box-sizing: border-box;
@@ -498,7 +496,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 100%;
+   width: 50%;
    text-align: center;
 }
 #LayoutGrid2 > .row > .col-2
@@ -506,8 +504,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   display: none;
-   width: 0;
+   width: 50%;
    text-align: center;
 }
 #LayoutGrid2:before,
@@ -1932,446 +1929,6 @@ body
 .Banner4_HideAnimation
 {
 }
-#wb_LayoutGrid5
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: #000000;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1280px;
-}
-#LayoutGrid5
-{
-   box-sizing: border-box;
-   padding: 40px 15px 20px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid5 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
-{
-   float: left;
-}
-#LayoutGrid5 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 50%;
-   text-align: center;
-}
-#LayoutGrid5 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 50%;
-   text-align: center;
-}
-#LayoutGrid5:before,
-#LayoutGrid5:after,
-#LayoutGrid5 .row:before,
-#LayoutGrid5 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid5:after,
-#LayoutGrid5 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
-{
-   float: none;
-   width: 100%;
-}
-}
-#wb_Heading8
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-   text-align: center;
-}
-#Heading8
-{
-   color: #42DCA3;
-   font-family: "Trebuchet MS";
-   font-weight: bold;
-   font-size: 24px;
-   margin: 0;
-   text-align: center;
-}
-#Heading8 a
-{
-   color: #42DCA3;
-   text-decoration: none;
-}
-#wb_Heading9
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-   text-align: center;
-}
-#Heading9
-{
-   color: #42DCA3;
-   font-family: "Trebuchet MS";
-   font-weight: bold;
-   font-size: 24px;
-   margin: 0;
-   text-align: center;
-}
-#Heading9 a
-{
-   color: #42DCA3;
-   text-decoration: none;
-}
-#wb_Text22 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0px 0px 10px 0px;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text22 div
-{
-   text-align: center;
-}
-#wb_Text24 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0px 0px 10px 0px;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text24 div
-{
-   text-align: center;
-}
-#wb_FontAwesomeIcon8
-{
-   background-color: #000000;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0px 10px 0px 0px;
-   padding: 10px 10px 10px 10px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon8:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-}
-#FontAwesomeIcon8
-{
-   height: 16px;
-   width: 16px;
-}
-#FontAwesomeIcon8 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 16px;
-   line-height: 16px;
-   vertical-align: middle;
-   width: 13px;
-}
-#wb_FontAwesomeIcon8:hover i
-{
-   color: #18BC9C;
-}
-#wb_FontAwesomeIcon8
-{
-   -webkit-transform: rotate(0deg) ;
-   -moz-transform: rotate(0deg) ;
-   transform: rotate(0deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   -moz-transition: transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#wb_FontAwesomeIcon8:hover
-{
-   -webkit-transform: rotate(360deg) ;
-   -moz-transform: rotate(360deg) ;
-   transform: rotate(360deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   -moz-transition: transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#wb_FontAwesomeIcon9
-{
-   background-color: #000000;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0px 10px 0px 0px;
-   padding: 10px 10px 10px 10px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon9:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-}
-#FontAwesomeIcon9
-{
-   height: 16px;
-   width: 16px;
-}
-#FontAwesomeIcon9 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 16px;
-   line-height: 16px;
-   vertical-align: middle;
-   width: 8px;
-}
-#wb_FontAwesomeIcon9:hover i
-{
-   color: #18BC9C;
-}
-#wb_FontAwesomeIcon9
-{
-   -webkit-transform: rotate(0deg) ;
-   -moz-transform: rotate(0deg) ;
-   transform: rotate(0deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   -moz-transition: transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#wb_FontAwesomeIcon9:hover
-{
-   -webkit-transform: rotate(360deg) ;
-   -moz-transform: rotate(360deg) ;
-   transform: rotate(360deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   -moz-transition: transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#wb_FontAwesomeIcon12
-{
-   background-color: #000000;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0px 10px 0px 0px;
-   padding: 10px 10px 10px 10px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon12:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-}
-#FontAwesomeIcon12
-{
-   height: 16px;
-   width: 16px;
-}
-#FontAwesomeIcon12 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 16px;
-   line-height: 16px;
-   vertical-align: middle;
-   width: 12px;
-}
-#wb_FontAwesomeIcon12:hover i
-{
-   color: #18BC9C;
-}
-#wb_FontAwesomeIcon12
-{
-   -webkit-transform: rotate(0deg) ;
-   -moz-transform: rotate(0deg) ;
-   transform: rotate(0deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   -moz-transition: transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#wb_FontAwesomeIcon12:hover
-{
-   -webkit-transform: rotate(360deg) ;
-   -moz-transform: rotate(360deg) ;
-   transform: rotate(360deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   -moz-transition: transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#Line3
-{
-   border-color: #000000;
-   border-style: solid;
-   border-bottom-width: 40px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
-   margin: 0;
-   padding: 0;
-}
-#Banner2
-{
-   background-color: #42DCA3;
-   background-image: none;
-   border: 2px solid #000000;
-   color: #000000;
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 19px;
-   text-align: center;
-   margin: 0;
-}
-#Banner2 span
-{
-   display: block;
-   height: 19px;
-   margin: 12px 0px 12px 0px;
-}
-#Banner2 .single-char
-{
-   float: left;
-}
-#Banner2 div
-{
-   display: inline-block;
-   text-align: center;
-}
-.Banner2_ShowAnimation
-{
-   -webkit-animation: animate-background 1000ms linear 0s 1 normal both;
-   -moz-animation: animate-background 1000ms linear 0s 1 normal both;
-   animation: animate-background 1000ms linear 0s 1 normal both;
-}
-.Banner2_HideAnimation
-{
-}
-#wb_Heading10
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-   text-align: center;
-}
-#Heading10
-{
-   color: #42DCA3;
-   font-family: "Trebuchet MS";
-   font-weight: bold;
-   font-size: 24px;
-   margin: 0;
-   text-align: center;
-}
-#Heading10 a
-{
-   color: #42DCA3;
-   text-decoration: none;
-}
-#wb_Text25 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0px 0px 10px 0px;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text25 div
-{
-   text-align: center;
-}
-#Banner5
-{
-   background-color: #42DCA3;
-   background-image: none;
-   border: 2px solid #000000;
-   color: #000000;
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 19px;
-   text-align: center;
-   margin: 0;
-}
-#Banner5 span
-{
-   display: block;
-   height: 19px;
-   margin: 12px 0px 12px 0px;
-}
-#Banner5 .single-char
-{
-   float: left;
-}
-#Banner5 div
-{
-   display: inline-block;
-   text-align: center;
-}
-.Banner5_ShowAnimation
-{
-   -webkit-animation: animate-background 1000ms linear 0s 1 normal both;
-   -moz-animation: animate-background 1000ms linear 0s 1 normal both;
-   animation: animate-background 1000ms linear 0s 1 normal both;
-}
-.Banner5_HideAnimation
-{
-}
 #wb_CssMenu1
 {
    border: 0px solid #C0C0C0;
@@ -2449,7 +2006,7 @@ body
    left: 0;
    top: 0;
    visibility: hidden;
-   width: 200px;
+   width: 230px;
    height: auto;
    border: none;
    background-color: transparent;
@@ -2467,7 +2024,7 @@ body
 }
 #wb_CssMenu1 li li
 {
-   width: 200px;
+   width: 230px;
    padding: 0 0px 0px 0px;
    border: 0px #000000 solid;
    border-width: 0 0px;
@@ -2484,7 +2041,7 @@ body
 {
    float: none;
    margin: 0;
-   width: 188px;
+   width: 218px;
    height: auto;
    white-space: normal;
    padding: 8px 6px 7px 6px;
@@ -2518,804 +2075,76 @@ body
    height: 0;
    line-height: 0;
 }
-#wb_Text19
+#wb_Heading7
 {
-   position: absolute;
-   left: 213px;
-   top: -36px;
-   width: 544px;
-   height: 20px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
    text-align: center;
-   z-index: 31;
 }
-#Layer2_Container
+#Heading7
 {
-   width: 970px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#wb_Heading2
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 9;
-}
-#intro_Container
-{
-   width: 970px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#wb_FontAwesomeIcon2
-{
-   display: inline-block;
-   width: 56px;
-   height: 56px;
+   color: #42DCA3;
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 24px;
+   margin: 0;
    text-align: center;
-   z-index: 25;
 }
-#about_Container
+#Heading7 a
 {
-   width: 970px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
+   color: #42DCA3;
+   text-decoration: none;
 }
-#wb_Text1
+#wb_Text22 
 {
-   position: absolute;
-   left: 101px;
-   top: 183px;
-   width: 768px;
-   height: 168px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0px 0px 10px 0px;
+   margin: 0;
    text-align: center;
-   z-index: 2;
 }
-#wb_Team1
+#wb_Text22 div
 {
-   display: inline-block;
-   width: 56px;
-   height: 56px;
    text-align: center;
-   z-index: 21;
-}
-#wb_Heading4
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 12;
-}
-#Banner1
-{
-   display: inline-block;
-   width: 339px;
-   height: 46px;
-   z-index: 11;
-}
-#wb_FontAwesomeIcon10
-{
-   position: absolute;
-   left: 456px;
-   top: 370px;
-   width: 40px;
-   height: 40px;
-   text-align: center;
-   z-index: 3;
 }
 #Banner2
 {
-   display: inline-block;
-   width: 339px;
-   height: 46px;
-   z-index: 36;
-}
-#wb_Name1
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 22;
-}
-#wb_Heading5
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 15;
-}
-#wb_Text3
-{
-   position: absolute;
-   left: 77px;
-   top: 75px;
-   width: 816px;
-   height: 116px;
-   text-align: center;
-   z-index: 4;
-}
-#spacer-line1
-{
-   display: block;
-   width: 100%;
-   z-index: 24;
-}
-#wb_Text4
-{
-   position: absolute;
-   left: 341px;
-   top: 42px;
-   width: 289px;
-   height: 29px;
-   text-align: center;
-   z-index: 20;
-}
-#Banner3
-{
-   display: inline-block;
-   width: 339px;
-   height: 46px;
-   z-index: 17;
-}
-#Layer1
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 115px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 44;
-}
-#PageHeader1_Container
-{
-   width: 970px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#wb_Text5
-{
-   position: absolute;
-   left: 213px;
-   top: -36px;
-   width: 544px;
-   height: 20px;
-   text-align: center;
-   z-index: 28;
-}
-#Layer2
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 242px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 45;
-}
-#Banner4
-{
-   display: inline-block;
-   width: 339px;
-   height: 46px;
-   z-index: 14;
-}
-#Banner5
-{
-   display: inline-block;
-   width: 339px;
-   height: 46px;
-   z-index: 39;
-}
-#wb_Heading8
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 34;
-}
-#Layer4_Container
-{
-   width: 970px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#Html1
-{
-   display: inline-block;
-   width: 250px;
-   height: 213px;
-   z-index: 30;
-}
-#Layer3
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 8px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 46;
-}
-#Layer1_Container
-{
-   width: 970px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#intro
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 100%;
-   float: left;
-   display: block;
-   z-index: 42;
-}
-#Layer4
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 20px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 49;
-}
-#quote_Container
-{
-   width: 970px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#quote
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 12px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 48;
-}
-#team_Container
-{
-   width: 970px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#about
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 235px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 43;
-}
-#Html3
-{
-   display: inline-block;
-   width: 190px;
-   height: 33px;
-   z-index: 33;
-}
-#wb_Text10
-{
-   position: absolute;
-   left: 84px;
-   top: 1330px;
-   width: 795px;
-   height: 16px;
-   z-index: 41;
-}
-#wb_Text9
-{
-   position: absolute;
-   left: 25px;
-   top: 5px;
-   width: 122px;
-   height: 54px;
-   z-index: 0;
-}
-#PageHeader1
-{
-   position: fixed;
-   text-align: center;
-   left: 0;
-   top: 0;
-   right: 0;
-   height: 80px;
-   z-index: 7777;
-}
-#wb_Text13
-{
-   position: absolute;
-   left: 213px;
-   top: -39px;
-   width: 544px;
-   height: 20px;
-   text-align: center;
-   z-index: 7;
-}
-#Layer3_Container
-{
-   width: 970px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-}
-#wb_CssMenu1
-{
-   position: absolute;
-   left: 514px;
-   top: 30px;
-   width: 444px;
-   height: 50px;
-   z-index: 1;
-}
-#wb_Text15
-{
-   position: absolute;
-   left: 213px;
-   top: 20px;
-   width: 544px;
-   height: 20px;
-   text-align: center;
-   z-index: 18;
-}
-#team
-{
-   position: relative;
-   text-align: center;
-   width: 100%;
-   height: 94px;
-   float: left;
-   clear: left;
-   display: block;
-   z-index: 47;
-}
-#wb_Heading10
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 37;
-}
-#wb_Heading1
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 26;
-}
-#wb_Text18
-{
-   position: absolute;
-   left: 213px;
-   top: -70px;
-   width: 544px;
-   height: 20px;
-   text-align: center;
-   z-index: 19;
-}
-@media only screen and (max-width: 969px)
-{
-body
-{
-   background-color: #000000;
-   background-image: none;
-}
-#PageHeader1
-{
-   height: 50px;
-   visibility: visible;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #000000;
-   background-image: none;
-}
-#PageHeader1_Container
-{
-   width: 327px;
-}
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text14
-{
-   margin: 0;
-   padding: 0;
-}
-#intro
-{
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/clouds_bg.jpg);
-   background-repeat: repeat;
-   background-position: center bottom !important;
-   background-attachment: scroll;
-   background-size: cover;
-   margin: 0;
-}
-#intro
-{
-   margin: 0;
-}
-#intro_Container
-{
-   width: 327px;
-}
-#about
-{
-   height: 237px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #000000;
-   background-image: none;
-   margin: -1px -1px -1px -1px;
-}
-#about
-{
-   margin: 0;
-}
-#about_Container
-{
-   width: 329px;
-}
-#wb_Text1
-{
-   left: 50px;
-   top: 78px;
-   width: 227px;
-   height: 74px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text1
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text3
-{
-   left: 5px;
-   top: 50px;
-   width: 318px;
-   height: 159px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text3
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text4
-{
-   left: 19px;
-   top: 28px;
-   width: 289px;
-   height: 29px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text4
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_ReadMore
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: url(images/clouds_bg.jpg);
-   background-repeat: repeat;
-   background-position: center center !important;
-   background-attachment: scroll;
-   background-size: cover;
-}
-#wb_ReadMore
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#ReadMore
-{
-   padding: 50px 0px 50px 0px;
-}
-#ReadMore .row
-{
-   margin-right: -0px;
-   margin-left: -0px;
-}
-#ReadMore > .row > .col-1
-{
-   padding-right: 0px;
-   padding-left: 0px;
-}
-#ReadMore > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#team
-{
-   height: 94px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #000000;
-   background-image: none;
-   margin: 0;
-}
-#team
-{
-   margin: 0;
-}
-#team_Container
-{
-   width: 327px;
-}
-#wb_team_grid
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #000000;
-   background-image: none;
-}
-#wb_team_grid
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#team_grid
-{
-   padding: 40px 15px 20px 15px;
-}
-#team_grid .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#team_grid > .row > .col-1, #team_grid > .row > .col-2
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#team_grid > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#team_grid > .row > .col-2
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#quote
-{
-   height: 52px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
    background-color: #42DCA3;
    background-image: none;
-   margin: 0;
-}
-#quote
-{
-   margin: 0;
-}
-#quote_Container
-{
-   width: 327px;
-}
-#wb_contact
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
+   border: 2px solid #000000;
+   color: #000000;
    font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
+   font-weight: bold;
+   font-size: 19px;
+   text-align: center;
+   margin: 0;
 }
-#wb_contact
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#contact
-{
-   padding: 75px 15px 0px 15px;
-}
-#contact .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#contact > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#contact > .row > .col-1
+#Banner2 span
 {
    display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
+   height: 19px;
+   margin: 12px 0px 12px 0px;
+}
+#Banner2 .single-char
+{
+   float: left;
+}
+#Banner2 div
+{
+   display: inline-block;
    text-align: center;
 }
-#wb_FontAwesomeIcon10
+.Banner2_ShowAnimation
 {
-   left: 134px;
-   top: 234px;
-   width: 36px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-   color: #FFFFFF;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   border-radius: 50%;
-   margin: 0;
-   padding: 10px 10px 10px 10px;
+   -webkit-animation: animate-background 1000ms linear 0s 1 normal both;
+   -moz-animation: animate-background 1000ms linear 0s 1 normal both;
+   animation: animate-background 1000ms linear 0s 1 normal both;
 }
-#FontAwesomeIcon10
+.Banner2_HideAnimation
 {
-   width: 36px;
-   height: 36px;
-}
-#FontAwesomeIcon10 i
-{
-   line-height: 36px;
-   font-size: 36px;
-   width: 22px;
-}
-#BuildWith1
-{
-   left: 441px;
-   top: 2296px;
-   width: 88px;
-   height: 31px;
-   visibility: visible;
-   display: inline;
-}
-#wb_Text9
-{
-   left: 25px;
-   top: 5px;
-   width: 122px;
-   height: 54px;
-   visibility: visible;
-   display: inline;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text9
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_text
-{
-   visibility: visible;
-   display: block;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_text
-{
-   margin: 0;
-   padding: 10px 20px 10px 20px;
-}
 }

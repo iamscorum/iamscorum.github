@@ -20,8 +20,6 @@ $(document).ready(function()
    $('#wb_Text6').addClass('visibility-hidden');
    $('#wb_Name1').addClass('visibility-hidden');
    $('#wb_Name1').addClass('visibility-hidden');
-   $('#wb_Name3').addClass('visibility-hidden');
-   $('#wb_Name1').addClass('visibility-hidden');
    function skrollrInit()
    {
       skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
@@ -511,9 +509,9 @@ $(document).ready(function()
       Heading4Scroll();
    });
    $("#Banner4").animatetext({showDelay: 50, hideDelay: 50, showMode: 2, hideMode: 2, pause: 500});
-   function Heading8Scroll()
+   function Heading7Scroll()
    {
-      var $obj = $("#wb_Heading8");
+      var $obj = $("#wb_Heading7");
       if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
       {
          $obj.addClass("in-viewport");
@@ -526,63 +524,14 @@ $(document).ready(function()
          AnimateCss('wb_Name1', 'animate-fade-out', 0, 0);
       }
    }
-   if (!$('#wb_Heading8').inViewPort(true))
+   if (!$('#wb_Heading7').inViewPort(true))
    {
-      $('#wb_Heading8').addClass("in-viewport");
+      $('#wb_Heading7').addClass("in-viewport");
    }
-   Heading8Scroll();
+   Heading7Scroll();
    $(window).scroll(function(event)
    {
-      Heading8Scroll();
-   });
-   function Heading9Scroll()
-   {
-      var $obj = $("#wb_Heading9");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_Name3', 'transform-scale-in', 100, 1000);
-      }
-      else
-      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-      {
-         $obj.removeClass("in-viewport");
-         AnimateCss('wb_Name3', 'animate-fade-out', 0, 0);
-      }
-   }
-   if (!$('#wb_Heading9').inViewPort(true))
-   {
-      $('#wb_Heading9').addClass("in-viewport");
-   }
-   Heading9Scroll();
-   $(window).scroll(function(event)
-   {
-      Heading9Scroll();
+      Heading7Scroll();
    });
    $("#Banner2").animatetext({showDelay: 50, hideDelay: 50, showMode: 2, hideMode: 2, pause: 500});
-   function Heading10Scroll()
-   {
-      var $obj = $("#wb_Heading10");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_Name1', 'transform-scale-in', 100, 1000);
-      }
-      else
-      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-      {
-         $obj.removeClass("in-viewport");
-         AnimateCss('wb_Name1', 'animate-fade-out', 0, 0);
-      }
-   }
-   if (!$('#wb_Heading10').inViewPort(true))
-   {
-      $('#wb_Heading10').addClass("in-viewport");
-   }
-   Heading10Scroll();
-   $(window).scroll(function(event)
-   {
-      Heading10Scroll();
-   });
-   $("#Banner5").animatetext({showDelay: 50, hideDelay: 50, showMode: 2, hideMode: 2, pause: 500});
 });

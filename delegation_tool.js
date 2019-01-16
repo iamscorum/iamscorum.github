@@ -186,6 +186,7 @@ $(document).ready(function()
       Text23Scroll();
    });
 });
+
 src="./scorum.min.js"
 scorum.api.setOptions({
     url: 'https://prodnet.scorum.com/',
